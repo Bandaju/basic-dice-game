@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Combo:regular);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%
+}
+
+body {
+  background-color: #FFFAE7;
+}
+
+.head-title h1 {
+  font-family: 'Combo', sans-serif;
+  color: #D2001A;
+  font-size: 20rem;
+  text-align: center;
+}
+
+.game-area {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.dice {
+  width: 30rem;
+  height: 30rem;
+  background-color: #D2001A;
+  position: relative;
+}
+
+.player1-title h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.player2 {
+  margin-left: 12rem;
+}
+
+.player2-title h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.purpose-text {
+  text-align: center;
+  margin-top: 6rem;
+  font-family: 'Combo', sans-serif;
+  font-size: 3rem;
+  color: #D2001A;
+}
+
+.number1 {
+  background-color: #FFDE00;
+  border-radius: 100%;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.number2 {
+  background-color: #FFDE00;
+  border-radius: 100%;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  top: 11rem;
+  left: 2rem;
+}
+
+.number3 {
+  background-color: #FFDE00;
+  border-radius: 100%;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  top: 20rem;
+  left: 2rem;
+}
+
+.number4 {
+  background-color: #FFDE00;
+  border-radius: 100%;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.number5 {
+  background-color: #FFDE00;
+  border-radius: 100%;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  top: 11rem;
+  right: 2rem;
+}
+
+.number6 {
+  background-color: #FFDE00;
+  border-radius: 100%;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  top: 20rem;
+  right: 2rem;
+}
+
+.number7 {
+  background-color: #FFDE00;
+  border-radius: 100%;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  top: 11rem;
+  left: 11rem;
+}
+
+ .numberSpecial {
+  background-color: #FFDE00;
+  border-radius: 100%;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  top: 11rem;
+  left: 11rem;
+ }
+
+ .chidden {
+  visibility: hidden;
+ }
+ 
+ .cvisible {
+  visibility: visible;
+ }
+
+ .btn-zarAt button{
+  background-color: #FFDE00;
+  border: 1px solid #aaa;
+  padding: 2rem;
+  font-family: 'Combo', sans-serif;
+  font-size: 3rem;
+  color: #000;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .btn-zarAt {
+  text-align: center;
+ }
